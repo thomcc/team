@@ -1,0 +1,29 @@
+{
+  "org": "rust-lang",
+  "name": "team",
+  "description": "Rust teams structure",
+  "bots": [
+    "bors",
+    "highfive",
+    "rustbot",
+    "rust-timer"
+  ],
+  "teams": [
+    {
+      "name": "core",
+      "permission": "admin"
+    },
+    {
+      "name": "mods",
+      "permission": "maintain"
+    }
+  ],
+  "branches": [
+    {
+      "name": "master",
+      "ci_checks": [
+        "CI"
+      ]
+    }
+  ]
+}
